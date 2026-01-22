@@ -81,6 +81,12 @@ jobs:
           cp -r dist/* ../build/release/
 
       # -------------------------------
+      # Create changelog
+      # -------------------------------
+      - name: Create changelog
+        run: node .github/scripts/create-changelog.js
+
+      # -------------------------------
       # Build GitHub page
       # -------------------------------
       - name: Setup GitHub page
