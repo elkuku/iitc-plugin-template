@@ -1,8 +1,8 @@
 {
-  "name": "IITC plugin: Iitc-Plugin-Template",
-  "id": "iitc_plugin_IitcPluginTemplate",
+  "name": "IITC plugin: IITC-Plugin-Template",
+  "id": "iitc_plugin_IITCPluginTemplate",
   "category": "Misc",
-  "description": "A template",
+  "description": "A plugin template",
   "author": "elkuku",
   "entry": "src/Main.ts",
   "minimize": false,

@@ -18,15 +18,15 @@ class Main implements Plugin.Class {
         // eslint-disable-next-line @typescript-eslint/no-require-imports
         require('./styles.css')
 
-        this.dialogHelper = new DialogHelper(PLUGIN_NAME, 'TEST')
+        this.dialogHelper = new DialogHelper(PLUGIN_NAME, 'My Plugin')
 
         this.createButtons()
     }
 
     private createButtons(): void {
         IITC.toolbox.addButton({
-            label: 'TEST',
-            title: 'just a test [X]',
+            label: 'My Plugin',
+            title: 'My new plugin [X]',
             accessKey: 'X',
             id: `btn-${PLUGIN_NAME}`,
             action: this.showDialog
